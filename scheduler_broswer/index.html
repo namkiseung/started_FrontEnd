@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+      <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+      <title>Namki</title>
+      <link rel="stylesheet" href="index.css">
+      <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR" rel="stylesheet">
+  	</head>
+    <body>
+      <!-- 헤더 in 바디 -->
+        <header class="header">
+            <span class="header__title"><div class="js-clock"><h1 class="js-title"></h1></div> </span><!--<i class="fa fa-caret-down"></i> -->
+            <span class="header__edit"><span class="js-weather"></span></span>
+            <span class="header__greeting"><h4 class="js-greetings greetting"></h4></span>
+        </header>
+      <!-- 섹션 in 바디 -->
+    <section>
+        <div style="text-align: right; margin-top: 0px;">
+          
+        </div>
+      <!-- 오른쪽 float-->
+        <div class='pull-right'>
+          <h4 id="title" class="clicked">bible</h4>
+          <select><option>ge (창세기)</option><option>exo (출애굽기)</option><option>lev (레위기)</option><option>num (민수기)</option><option>deu (신명기)</option><option>josh (여호수아)</option><option>jdgs (사사기)</option><option>ruth (룻기)</option><option>1sm (사무엘상)</option><option>2sm (사무엘하)</option><option>1ki (열왕기상)</option><option>2ki (열왕기하)</option><option>1chr (역대상)</option><option>2chr (역대하)</option><option>ezra (에스라)</option><option>neh (느헤미야)</option><option>est (에스더)</option><option>job (욥기)</option><option>psa (시편)</option><option>prv (잠언)</option><option>eccl (전도서)</option><option>ssol (아가)</option><option>isa (이사야)</option><option>jer (예레미야)</option><option>lam (예레미야 애가)</option><option>eze (에스겔)</option><option>dan (다니엘)</option><option>hos (호세아)</option><option>joel (요엘)</option><option>amos (아모스)</option><option>obad (오바댜)</option><option>jonah (요나)</option><option>mic (미가)</option><option>nahum (나훔)</option><option>hab (하박국)</option><option>zep (스바냐)</option><option>hag (학개)</option><option>zep (스가랴)</option><option>mal (말라기)</option><option>mat (마태복음)</option><option>mark 마가복음)</option><option>luke (누가복음)</option><option>john (요한복음)</option><option>acts (사도행전)</option><option>rom (로마서)</option><option>1cor (고린도전서)</option><option>2cor (고린도후서)</option><option>gal (갈라디아서)</option><option>eph (에베소서)</option><option>phi (빌립보서)</option><option>col (골로새서)</option><option>1th (데살로니가전서)</option><option>2th (데살로니가후서)</option><option>1tim (디모데전서)</option><option>2tim (디모데후서)</option><option>titus (디도서)</option><option>phmn (빌레몬서)</option><option>heb (히브리서)</option><option>jas (야고보서)</option><option>1pet (베드로전서)</option><option>2pet (베드로후서)</option><option>1jn (요한1서)</option><option>2jn (요한2서)</option><option>3jn (요한3서)</option><option>jude (유다서)</option><option>rev (요한계시록)</option>    </select>
+          <div class="js-bible">a</div>         
+          
+        </div>
+      <!-- 왼쪽쪽 float-->
+        <div class='pull-left'>          
+          <form class="js-form"><input type="text" placeholder="id : "/></form> 
+          
+          <form class="js-toDoForm">
+            <input type="text" placeholder="write a to do"/>
+          </form>
+          <ul class="js-toDoList"></ul>
+        </div>
+      </section>
+      <!-- 풋터 in 바디 -->
+        <footer class="footer">
+            <div class="footer__icon">
+                <i class="fa fa-user fa-1x"></i>
+                <span class="footer__text">Friends</span></div>
+            <div class="footer__icon footer__icon--selected">
+                <i class="fa fa-comment fa-1x"></i>
+                <span class="footer__text">Chats</span></div>
+            <div class="footer__icon">
+                <i class="fa fa-book fa-1x"></i>
+                <span class="footer__text">Channel</span></div>
+            <div class="footer__icon">
+                 <i class="fa fa-ellipsis-h fa-1x"></i>
+                <span class="footer__text">More</span></div>
+        </footer>
+        <!-- <div class="action-btn" id="actionBtn">
+            <i class="fa fa-comment fa-lg"></i>
+        </div>
+        <div id="lockBtn" class="action-btn action-btn--notYellow">
+            <i class="fa fa-lock fa-lg"></i>
+        </div> -->
+          <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+      
+      
+        
+     
+      
+      
+      <script src="index.js"></script> 
+      <script src="clock.js"></script>
+      <script src="greetting.js"></script>
+      <script src="todo.js"></script>
+      <script src="bg.js"></script>
+      <script src="weather.js"></script>
+      <script src="bible.js"></script>
+    </body>
+  </html>
+  <!-- https://serranoarevalo.github.io/momonton/ -->

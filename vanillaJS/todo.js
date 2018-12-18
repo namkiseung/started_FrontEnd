@@ -34,7 +34,7 @@ function deleteToDo(event){
     toDoList.removeChild(li);
     const cleanToDos = toDos.filter(function(toDo){ //어레이를 하나로만듬
         return toDo.id !== parseInt(li.id);
-    }) //이 필터는 forEach에서 function을 실행하는 것 처럼 각 item과 같이 실행됨.
+    }); //이 필터는 forEach에서 function을 실행하는 것 처럼 각 item과 같이 실행됨.
     toDos = cleanToDos
     saveToDos();
 }
