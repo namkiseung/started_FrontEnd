@@ -1,0 +1,1 @@
+mysql> insert into user (userid, userpw) values ("rltmd1004", hex(aes_encrypt(SHA2("dd4351", 256), "4351")));

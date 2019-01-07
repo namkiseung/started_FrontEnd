@@ -1,0 +1,41 @@
+html(lang="en")
+  head
+    //- 이 페이지 타이틀명
+    title pageTitle
+    //- 제이쿼리 사용하기 위해 코드 받아옴
+    script(src="https://code.jquery.com/jquery-3.2.1.min.js")
+  body
+    h1 PW console
+    hr
+    #container
+    script(src="./public/index.js") 
+
+    //- 로그인 폼  
+    form(action='login_chk', name='loginform', method='post')
+        label Username:
+        input(type='text', name='username', id='id')
+        br
+        label Password:
+        input(type='password', name='password')
+        br
+        input(type='submit', value='login', style='width:300px;height:50px;margin:10px')
+    hr
+    table
+        tr 
+            - for(var i=0; i<name[2].sitename.length; i++){
+                p #{i}
+                td #{name[0].sitename}
+                td #{name[0].siteurl}
+                td #{name[0].snsauth}
+            - }
+                //- - for(var i=0; i< datas.length; i++){
+                //-     td #{i}
+                //-     td #{datas}
+                //- - }
+                
+                
+
+    
+    
+    
+         
