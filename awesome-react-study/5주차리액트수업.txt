@@ -1,0 +1,17 @@
+페이지마다 기능 정의 URL 설명
+api stack
+시스템 구성도
+DB구성포함
+
+src디렉터리에 /container/는 : 서버와 통신하는 컴포넌드
+자동정렬 //prettier 플러그인
+
+FLUX 패턴 - 뷰랑 모델이 원치않게 업데이트 되면서 성능 이슈가 생김.
+MVC의 한계로 나왔다.
+
+Rudux
+
+npm install -s redux redux-thunk react-redux
+리듀스는 
+리듀서는 받은걸 변경해서 어떻게 주겠다.
+인스타그램 봇

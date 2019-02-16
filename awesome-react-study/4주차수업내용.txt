@@ -1,0 +1,24 @@
+#######################################
+git checkout -t remotes/origin/4week 하다가
+error발생 "Your local changes to the following files would be overwritten by checkout:"
+
+그리고 "Please commit your changes or stash them before you switch branches."
+git add .후에
+git stash 이거는 임시 저장이다. 이걸로 해결함.
+#######################################
+>>children props
+부모 render(){}에서 자식 컴포넌트를 태그처럼 선언한다. 자식도 render(){}안에서 {this.props.children}
+########################################
+함수형 컴포넌트
+(기존)
+-state사용못함 -> 이제는 됨
+-라이프사이클 못했는데 이제 됨
+-단순 ui표현을 위해사용
+
+
+##########################
+npm i -s react-router-dom
+-s 옵션은 package.json에 등록됨
+npm i -g react-router-dom
+-g 옵션은 전역
+##########################

@@ -1,0 +1,9 @@
+-크롬 리액트 확장프로그램
+-ref(react)
+:react는 dom객체에 접근이 안된다.
+-componentWillUnmount(){removeEventListener}
+
+
+https://medium.com/@enro2414_40667/react-refs-%EA%B7%B8%EB%A6%AC%EA%B3%A0-dom-8900c72e7ab1
+https://reactjs.org/docs/refs-and-the-dom.html
+https://velopert.com/1148
